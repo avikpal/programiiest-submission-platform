@@ -5,7 +5,7 @@
 <body>
 hi
 <?
-$allowedExts = array("gif", "jpeg", "jpg", "png","zip");
+$allowedExt = array("zip"); //for now allowing only .zip files
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 if (true)
