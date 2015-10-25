@@ -106,7 +106,7 @@
 <div id="submission_form">
 	<form action="upload_file.php" method="post" enctype="multipart/form-data">
 	<label for="file">Filename:</label>
-	<input type="file" name="file" id="file"><br>
+	<input type="file" name="file" id="file" accept=".zip"><br>
 	<p>Please check the format of the file name. Submission will be disqualified if the format (specified) is not maintained properly.</p>
 	<input type="submit" name="submit" value="Submit" class="button">
 	</form>
